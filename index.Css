@@ -265,6 +265,163 @@
     text-decoration: none;
     outline: none;
 }
+.menu-Title {
+   width: 130px;
+  height: 130px;
+  color: #000000;
+  text-align: center;
+  vertical-align: middle;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: x-large;
+  font-style: italic;
+}
+.menu-btnShouta {
+    padding: 12px 20px;               /* smaller padding for smaller box */
+    width: 130px;
+    height: 130px;
+    border: none;
+    transition: 0.1s;
+    border-radius: 20px;              /* reduced radius to match smaller size */
+
+    background-image: url(ShoutaBG.png);
+    background-size: cover;         /* fit image without cropping */
+    background-repeat: no-repeat;
+    background-position: center;
+
+    color: #000000;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bold;
+
+    font-size: medium;                /* smaller font to fit inside */
+    text-align: center;
+    line-height: 130px;               /* vertically center text inside 130px height */
+    cursor: pointer;
+
+    box-shadow: 0 2px 8px rgba(0,0,0,0.08), inset 0 -20px 20px 15px rgba(0,0,0,0.15);
+    text-decoration: none;
+    outline: none;
+}
+.menu-btnShouta:hover {
+    border-radius: 30px;
+}
+
+.menu-btnKimun {
+    padding: 12px 20px;               /* smaller padding for smaller box */
+    width: 130px;
+    height: 130px;
+    border: none;
+    transition: 0.1s;
+    border-radius: 20px;              /* reduced radius to match smaller size */
+
+    background-image: url(Kimun_Kamui.png);
+    background-size: cover;         /* fit image without cropping */
+    background-repeat: no-repeat;
+    background-position: center;
+
+    color: #000000;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bold;
+
+    font-size: medium;                /* smaller font to fit inside */
+    text-align: center;
+    line-height: 130px;               /* vertically center text inside 130px height */
+    cursor: pointer;
+
+    box-shadow: 0 2px 8px rgba(0,0,0,0.08), inset 0 -20px 20px 15px rgba(0,0,0,0.15);
+    text-decoration: none;
+    outline: none;
+}
+.menu-btnKimun:hover {
+    border-radius: 30px;
+}
+
+.menu-btnKimun {
+    padding: 12px 20px;               /* smaller padding for smaller box */
+    width: 130px;
+    height: 130px;
+    border: none;
+    transition: 0.1s;
+    border-radius: 20px;              /* reduced radius to match smaller size */
+
+    background-image: url(Kimun_Kamui.png);
+    background-size: cover;         /* fit image without cropping */
+    background-repeat: no-repeat;
+    background-position: center;
+
+    color: #000000;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bold;
+
+    font-size: medium;                /* smaller font to fit inside */
+    text-align: center;
+    line-height: 130px;               /* vertically center text inside 130px height */
+    cursor: pointer;
+
+    box-shadow: 0 2px 8px rgba(0,0,0,0.08), inset 0 -20px 20px 15px rgba(0,0,0,0.15);
+    text-decoration: none;
+    outline: none;
+}
+.menu-btnKimun:hover {
+    border-radius: 30px;
+}
+
+.menu-btnDamocles {
+    padding: 12px 20px;               /* smaller padding for smaller box */
+    width: 130px;
+    height: 130px;
+    border: none;
+    transition: 0.1s;
+    border-radius: 20px;              /* reduced radius to match smaller size */
+
+    background-image: url(DamoclesBG.png);
+    background-size: cover;         /* fit image without cropping */
+    background-repeat: no-repeat;
+    background-position: center;
+
+    color: #ffffff;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bold;
+
+    font-size: medium;                /* smaller font to fit inside */
+    text-align: center;
+    line-height: 130px;               /* vertically center text inside 130px height */
+    cursor: pointer;
+
+    box-shadow: 0 2px 8px rgba(0,0,0,0.08), inset 0 -20px 20px 15px rgba(0,0,0,0.15);
+    text-decoration: none;
+    outline: none;
+}
+.menu-btnDamocles:hover {
+    border-radius: 30px;
+}.menu-btnTelne {
+    padding: 12px 20px;               /* smaller padding for smaller box */
+    width: 130px;
+    height: 130px;
+    border: none;
+    transition: 0.1s;
+    border-radius: 20px;              /* reduced radius to match smaller size */
+
+    background-image: url(TelneBG.png);
+    background-size: cover;         /* fit image without cropping */
+    background-repeat: no-repeat;
+    background-position: center;
+
+    color: #000000;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bold;
+
+    font-size: medium;                /* smaller font to fit inside */
+    text-align: center;
+    line-height: 130px;               /* vertically center text inside 130px height */
+    cursor: pointer;
+
+    box-shadow: 0 2px 8px rgba(0,0,0,0.08), inset 0 -20px 20px 15px rgba(0,0,0,0.15);
+    text-decoration: none;
+    outline: none;
+}
+.menu-btnTelne:hover {
+    border-radius: 30px;
+}
 
 .sidenav {
   height: 100%;
