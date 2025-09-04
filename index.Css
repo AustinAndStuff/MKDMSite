@@ -1,0 +1,327 @@
+ body {
+    font-family: Arial, sans-serif;
+    background: #f7f7fa;
+    background-image: url(MenuBGImage1.jfif);
+    background-size: cover;
+    background-position: 0% 20%;
+    image-resolution: 900dpi;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+}
+.menu {
+    display: flex;
+  flex-wrap: wrap; 
+  gap: 20px;
+}
+
+.menu-btn:hover {
+    background: #5548c8;
+}
+
+.menu-btn {
+    padding: 10px 15px;
+    border: none;
+    border-radius: 25px;
+    background: #6c63ff;
+    color: #fff;
+    font-size: 1.1rem;
+    cursor: pointer;
+    transition: background 0.2s;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.08) inset 0 5px 8px rgba(0,0,0,0.15);;
+    text-decoration: none;
+    outline: none;
+}
+
+.menu-btnTohru:hover {
+    border-radius: 30px;
+}
+
+.menu-btnTohru {
+    padding: 12px 20px;               /* smaller padding for smaller box */
+    width: 130px;
+    height: 130px;
+    border: none;
+    transition: 0.1s;
+    border-radius: 20px;              /* reduced radius to match smaller size */
+
+    background-image: url(TohruBG.jfif);
+    background-size: cover;         /* fit image without cropping */
+    background-repeat: no-repeat;
+    background-position: center;
+
+    color: #000000;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bold;
+
+    font-size: medium;                /* smaller font to fit inside */
+    text-align: center;
+    line-height: 130px;               /* vertically center text inside 130px height */
+    cursor: pointer;
+
+    box-shadow: 0 2px 8px rgba(0,0,0,0.08), inset 0 -20px 20px 15px rgba(0,0,0,0.15);
+    text-decoration: none;
+    outline: none;
+}
+
+.menu-btnElma:hover {
+    border-radius: 30px;
+}
+
+.menu-btnElma {
+   padding: 12px 20px;               /* smaller padding for smaller box */
+    width: 130px;
+    height: 130px;
+    border: none;
+    transition: 0.1s;
+    border-radius: 20px;              /* reduced radius to match smaller size */
+
+    background-image: url(ElmaBG.webp);
+    background-size: cover;         /* fit image without cropping */
+    background-repeat: no-repeat;
+    background-position: center;
+
+    color: #000000;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bold;
+
+    font-size: medium;                /* smaller font to fit inside */
+    text-align: center;
+    line-height: 130px;               /* vertically center text inside 130px height */
+    cursor: pointer;
+
+    box-shadow: 0 2px 8px rgba(0,0,0,0.08), inset 0 -20px 20px 15px rgba(0,0,0,0.15);
+    text-decoration: none;
+    outline: none;
+}
+
+.menu-btnLucoa:hover {
+    border-radius: 30px;
+}
+
+.menu-btnLucoa {
+    padding: 12px 20px;               /* smaller padding for smaller box */
+    width: 130px;
+    height: 130px;
+    border: none;
+    transition: 0.1s;
+    border-radius: 20px;              /* reduced radius to match smaller size */
+
+    background-image: url(CoatlBG.webp);
+    background-size: cover;         /* fit image without cropping */
+    background-repeat: no-repeat;
+    background-position: left;
+
+    color: #000000;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bold;
+
+    font-size: medium;                /* smaller font to fit inside */
+    text-align: center;
+    line-height: 130px;               /* vertically center text inside 130px height */
+    cursor: pointer;
+
+    box-shadow: 0 2px 8px rgba(0,0,0,0.08), inset 0 -20px 20px 15px rgba(0,0,0,0.15);
+    text-decoration: none;
+    outline: none;
+}
+
+.menu-btnKanna:hover {
+    border-radius: 30px;
+}
+
+.menu-btnKanna {
+     padding: 12px 20px;               /* smaller padding for smaller box */
+    width: 130px;
+    height: 130px;
+    border: none;
+    transition: 0.1s;
+    border-radius: 20px;              /* reduced radius to match smaller size */
+
+    background-image: url(KannaBG.webp);
+    background-size: cover;         /* fit image without cropping */
+    background-repeat: no-repeat;
+    background-position: center;
+
+    color: #000000;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bold;
+
+    font-size: medium;                /* smaller font to fit inside */
+    text-align: center;
+    line-height: 130px;               /* vertically center text inside 130px height */
+    cursor: pointer;
+
+    box-shadow: 0 2px 8px rgba(0,0,0,0.08), inset 0 -20px 20px 15px rgba(0,0,0,0.15);
+    text-decoration: none;
+    outline: none;
+}
+
+.menu-btnIlulu:hover {
+    border-radius: 30px;
+}
+
+.menu-btnIlulu {
+     padding: 12px 20px;               /* smaller padding for smaller box */
+    width: 130px;
+    height: 130px;
+    border: none;
+    transition: 0.1s;
+    border-radius: 20px;              /* reduced radius to match smaller size */
+
+    background-image: url(Ilulu.BG.webp);
+    background-size: cover;         /* fit image without cropping */
+    background-repeat: no-repeat;
+    background-position: center;
+
+    color: #000000;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bold;
+
+    font-size: medium;                /* smaller font to fit inside */
+    text-align: center;
+    line-height: 130px;               /* vertically center text inside 130px height */
+    cursor: pointer;
+
+    box-shadow: 0 2px 8px rgba(0,0,0,0.08), inset 0 -20px 20px 15px rgba(0,0,0,0.15);
+    text-decoration: none;
+    outline: none;
+}
+
+.menu-btnKobayashi:hover {
+    border-radius: 30px;
+}
+
+.menu-btnKobayashi {
+    padding: 12px 20px;               /* smaller padding for smaller box */
+    width: 130px;
+    height: 130px;
+    border: none;
+    transition: 0.1s;
+    border-radius: 20px;              /* reduced radius to match smaller size */
+
+    background-image: url(KobayashiBG.webp);
+    background-size: cover;         /* fit image without cropping */
+    background-repeat: no-repeat;
+    background-position: center;
+
+    color: #000000;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bold;
+
+    font-size: medium;                /* smaller font to fit inside */
+    text-align: center;
+    line-height: 130px;               /* vertically center text inside 130px height */
+    cursor: pointer;
+
+    box-shadow: 0 2px 8px rgba(0,0,0,0.08), inset 0 -20px 20px 15px rgba(0,0,0,0.15);
+    text-decoration: none;
+    outline: none;
+}
+.button {
+  background-color: #d3c3da63; /* Green */
+  border: none;
+  color: rgb(0, 0, 0);
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  padding: 15px 30px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.menu-btnFafnir:hover {
+    border-radius: 30px;
+}
+
+.menu-btnFafnir {
+    padding: 12px 20px;               /* smaller padding for smaller box */
+    width: 130px;
+    height: 130px;
+    border: none;
+    transition: 0.1s;
+    border-radius: 20px;              /* reduced radius to match smaller size */
+
+    background-image: url(FafnirBG.webp);
+    background-size: cover;         /* fit image without cropping */
+    background-repeat: no-repeat;
+    background-position: center;
+
+    color: #ffffff;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bold;
+
+    font-size: medium;                /* smaller font to fit inside */
+    text-align: center;
+    line-height: 130px;               /* vertically center text inside 130px height */
+    cursor: pointer;
+
+    box-shadow: 0 2px 8px rgba(0,0,0,0.08), inset 0 -20px 20px 15px rgba(0,0,0,0.15);
+    text-decoration: none;
+    outline: none;
+}
+
+.sidenav {
+  height: 100%;
+  width: 0; 
+  position: fixed; 
+  z-index: 1; 
+  top: 0; 
+  left: 0;
+  background-color: #111; 
+  overflow-x: hidden; 
+  padding-top: 60px; 
+  transition: 0.5s; 
+  background-image: url(MenuBGImage1.jfif);
+  background-size: contain;
+  background-position: center;
+}
+
+.sidenav a {
+  text-decoration: none;
+  font-size: 25px;
+  display: block;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+.NonSelected {
+   color: #818181;
+  padding: 8px 8px 8px 32px;
+}
+
+.sidenav a:hover {
+  color: #f1f1f1;
+}
+
+.sidenav .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+
+.Selected {
+  color: rgb(255, 255, 255);
+  background-color: crimson;
+  border-radius: 5px;
+  width: 50%;
+  padding: 8px 8px 8px 100px;
+}
+
+
+#main {
+  transition: margin-left .5s;
+  padding: 20px;
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
