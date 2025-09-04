@@ -16,7 +16,7 @@ body {
     padding-left: 3%;
     position: relative;
     font-size: x-large;
-    color: white;
+    color: rgb(131, 131, 131);
 }
 
 .sidenav {
@@ -98,7 +98,6 @@ background: linear-gradient(0deg, rgba(131, 58, 180, 1) 9%, rgba(253, 29, 29, 1)
   display: inline-block;
   font-size: 16px;
   position: relative;
-  left: -25%;
 }
 
 .FormChanger {
@@ -114,7 +113,15 @@ background: linear-gradient(0deg, rgba(131, 58, 180, 1) 9%, rgba(253, 29, 29, 1)
     position: relative;
     left: 50%;
 }
-
+.sidenav div {
+  text-decoration: none;
+  font-size: 25px;
+  display: block;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-weight: bold;
+   color: #000000;
+  transition: 0.3s;
+}
 .HumanForm {
     border: none;
     color: white;

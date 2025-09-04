@@ -29,7 +29,15 @@ body {
   background-size: cover;
   background-position: 70%;
 }
-
+.sidenav div {
+  text-decoration: none;
+  font-size: 25px;
+  display: block;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-weight: bold;
+   color: #000000;
+  transition: 0.3s;
+}
 .sidenav a {
   text-decoration: none;
   font-size: 25px;
